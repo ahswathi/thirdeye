@@ -1,0 +1,728 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size:cover;
+  
+}
+
+img {
+    margin-top: 12px;
+    width: 200px;
+    height: 56px;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.header-text {
+    max-width: 400px;
+    margin-top: 140px;
+    letter-spacing: -.4px;
+    line-height: 45px;
+    
+}
+
+h1 {
+    font-size: 34px;
+    letter-spacing: -.4px;
+    line-height: 45px;
+    color: rgb(6, 6, 122);
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    letter-spacing: -.4px;
+    line-height: 25px;
+}
+
+.common-btn {
+
+    padding: 14px 30px;
+    background-image: linear-gradient(to right, #fa7c41 0, #ff6565 100%);
+    border: 0;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+#sidenav {
+    background-color: #f67c92;
+    width: 160px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    z-index: 2;
+    transition: .5s;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menubtn {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 28px;
+    right: 15px;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#about {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left-col {
+    flex-basis: 50%;
+}
+
+.about-left-col img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-right-col {
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about-text p {
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+#spa {
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+}
+
+#fa {
+    font-size: 18px;
+    padding: 8px;
+    color: #fa7c41;
+}
+
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*  border: 2px solid black; */
+}
+
+.feature-row {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.feature-row img {
+    height: 100%;
+}
+
+.feature-col {
+    /* border: 2px solid black; */
+    flex-basis: 25%;
+    text-align: center;
+}
+
+/* .feature-col img {
+    width: 220px;
+    height: 220px;
+}
+ */
+#course {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+
+}
+
+.course-right-col {
+    flex-basis: 50%;
+    padding-right: 20px;
+
+    height: 400px;
+}
+
+.course-left-col {
+    flex-basis: 50%;
+    padding: 20px;
+    line-height: 18px;
+}
+
+.course-left-col img {
+    height: 100%;
+    width: 100%;
+}
+
+.course-text {
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact {
+    display: flex;
+    align-items: center;
+    margin: 10px 2px;
+
+}
+
+.contact-row {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /*  border: 1px solid black; */
+}
+
+.contact-left-col,
+.contact-right-col {
+    flex-basis: 50%;
+    /*  border: 1px solid black; */
+}
+
+.contact-right-col img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-left-col span {
+    font-size: 34px;
+    margin-left: 220px;
+    padding-bottom: 20px;
+    color: rgb(3, 3, 145);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+form .Signup {
+    /*  border: 1px solid rgb(199, 0, 0); */
+    margin-top: 20px;
+    max-width: 350px;
+}
+
+.Signup input {
+    width: 80%;
+    margin-left: 40px;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 52, 52);
+    border-radius: 4px;
+}
+
+.btn-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+
+}
+
+.btn-box button {
+    flex-basis: 48%;
+    padding: 10px 0;
+    background: none;
+    border: 2px solid rgb(255, 73, 27);
+}
+
+/* ********************************************************************************* */
+footer {
+    width: 100%;
+    position: absolute;
+    border-top-left-radius: 125px;
+    background-image: linear-gradient(to right, #fa7c41 0, #ff6565 100%);
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 60px;
+ 
+}
+
+.col {
+    flex-basis: 28%;
+    margin: 0 40px;
+ 
+}
+
+.col1 {
+    flex-basis:22%;
+    margin: 0 20px;
+}
+
+.col2 {
+    flex-basis: 12%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.col3 {
+    flex-basis: 22%;
+    margin-left: 20px;
+    margin-top: -38px;
+}
+.col2 ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+
+.col2 ul li a {
+    text-decoration: none;
+    color: rgb(18, 1, 66);
+    font-size: 16px;
+}
+.row h3{
+    color: rgb(110, 1, 1);
+    margin-bottom: 10px;
+}
+.row p{
+    color: rgb(18, 1, 66);
+    font-size: 14px;
+}
+ .logo {
+    width: 160px;
+    height: 40px;
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    border-bottom: 1px solid orangered;
+    margin-bottom: 10px;
+}
+
+form .fa-solid {
+    font-size: 16px;
+    margin-right: 10px;
+    color: rgb(18, 1, 66);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+form input {
+    margin-left: 2px;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+
+}
+
+form button {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin-left: 2px;
+    color: rgb(18, 1, 66);
+}
+
+.social-icon .fa-brands {
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    margin-top: 10px;
+    color: rgb(18, 1, 66);
+}
+
+/* media ***************************************** */
+@media only screen and (max-width : 770px) {
+    #header {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header-text {
+        max-width: 280px;
+        margin-top: 130px;
+        letter-spacing: -.4px;
+        line-height: 24px;
+    }
+
+    .container {
+        margin-right: 40px;
+        margin-left: 40px;
+
+    }
+
+    h1 {
+        font-size: 24px;
+        letter-spacing: -.4px;
+        line-height: 24px;
+        color: rgb(6, 6, 122);
+        font-family: sans-serif;
+    }
+
+    p {
+        font-family: sans-serif;
+        letter-spacing: -.4px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+
+    .common-btn {
+
+        padding: 10px 20px;
+        background-image: linear-gradient(to right, #fa7c41 0, #ff6565 100%);
+        border: 0;
+        border-radius: 30px;
+        margin-top: 8px;
+    }
+
+    #about {
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .about-left-col {
+        flex-basis: 100%;
+    }
+
+    .about-left-col img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-right-col {
+        flex-basis: 100%;
+        text-align: justify;
+        margin: 20px 40px;
+        width: 100%;
+    }
+
+    .about-text {
+        max-width: 100%;
+        margin-right: 40px;
+        display: inline-block;
+    }
+
+    .about-text p {
+        line-height: 24px;
+        letter-spacing: 1px;
+        margin-top: 6px;
+    }
+
+    #spa {
+        font-style: oblique;
+        font-size: 12px;
+        color: rgb(102, 102, 102);
+    }
+
+    #features {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        /*  border: 2px solid black; */
+        
+    }
+    #features h4 p{
+    line-height: 24px;
+    font-size: 18px;
+}
+
+    .feature-row {
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+
+        flex-wrap: wrap;
+        width: 80%;
+
+    }
+
+    .feature-row img {
+        height: 80%;
+    }
+
+    .feature-col {
+        /* border: 2px solid black; */
+        flex-basis: 75%;
+        text-align: center;
+    }
+
+    #course {
+        display: flex;
+        align-items: center;
+
+        flex-wrap: wrap;
+        margin: 0px 10px;
+
+    }
+
+    .course-right-col {
+        flex-basis: 95%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+ margin-bottom: -100px;
+    }
+
+    .course-left-col {
+        flex-basis: 100%;
+    }
+
+    .course-left-col img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .course-text {
+        padding-right: 30px 0;
+        
+    }
+
+
+    .contact-row {
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        /*  border: 1px solid black; */
+    }
+
+    .contact-left-col,
+    .contact-right-col {
+        flex-basis: 100%;
+        /*  border: 1px solid black; */
+    }
+
+    .contact-left-col {
+        padding-bottom: 40px;
+    }
+
+    .btn-box {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 110px;
+
+    }
+
+    .btn-box button {
+        flex-basis: 48%;
+        padding: 10px 0;
+        background: none;
+        border: 2px solid rgb(255, 73, 27);
+    }
+
+    .contact-left-col span {
+        font-size: 24px;
+        margin-left: 180px;
+        line-height: 40px;
+        color: rgb(3, 3, 145);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    footer {
+        width: 100%;
+        position: absolute;
+        border-top-left-radius: 125px;
+        background-image: linear-gradient(to right, #fa7c41 0, #ff6565 100%);
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 10px;
+    
+    }
+    
+    .row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 8px 30px;     
+    }
+    
+    .col {
+        flex-basis: 26%;
+        margin: 0 18px;
+     
+    }
+    
+    .col1 {
+        flex-basis:20%;
+        margin: 0 10px;
+    }
+    
+    .col2 {
+        flex-basis: 12%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .col3 {
+        flex-basis: 20%;
+        margin-left: 18px;
+        margin-top: -28px;
+    }
+
+
+
+    
+}
+
+@media only screen and (max-width : 360px) {
+    #header {
+        height: 80vh;
+        background-image:none;
+           
+    }
+    .header-text {
+        max-width: 400px;
+        margin-top: 60px;
+        letter-spacing: -.4px;
+        line-height: 45px;
+     }
+    #course {
+        display: flex;
+        align-items: center;
+        margin: 20px 30px;
+    
+    }
+    #about {
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -80px;
+
+    }
+    .about-text {
+        max-width: 800px;
+        margin-right: 20px;
+        display: inline-block;
+    }
+    
+    .about-text p {
+        line-height: 14px;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    #spa {
+        font-style: oblique;
+        font-size: 12px;
+        color: rgb(102, 102, 102);
+    }
+    #contact {
+        display: flex;
+        align-items: center;
+      
+    margin-top: 240px;
+    }
+    .contact-left-col span {
+        font-size: 22px;
+        margin-left: 80px;
+        line-height: 22px;
+    }
+    .Signup input {
+        width: 80%;
+        margin-left: 20px;
+        padding: 10px 10px;
+        margin-bottom: 15px;
+        outline: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 52, 52);
+        border-radius: 4px;
+    }
+    
+    
+   
+.btn-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+.btn-box button {
+    flex-basis: 48%;
+    padding: 10px 0;
+    background: none;
+    border: 2px solid rgb(255, 73, 27);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 8px 80px;     
+}
+
+.col {
+    flex-basis: 26%;
+    margin: 8px 12px;
+ 
+}
+
+.col1 {
+    flex-basis:20%;
+    margin: 10px 10px;
+}
+
+.col2 {
+    flex-basis: 12%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.col3 {
+    flex-basis: 20%;
+    margin-left: 12px;
+    margin-top: -28px;
+}
+
+
+}
